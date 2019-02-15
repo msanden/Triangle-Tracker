@@ -1,0 +1,15 @@
+body {
+  background-color: #EEECE1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border: 1px solid black;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-family: serif;
+ }
+/*
+li {
+  line-height: normal;
+}
