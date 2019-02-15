@@ -7,7 +7,7 @@ The application uses the following guidelines to evaluate input:
 * For an isosceles triangle, two sides are exactly equal.
 * For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.
 * easy-to-understand
-* Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)
+* Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9, 4 & 3 cannot form a triangle.)
 
 ## USER STORY
 A user enters the length values of the three sides of their triangle.
