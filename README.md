@@ -1,4 +1,4 @@
-# Triangle Tracker
+# Triangle Tracker Program
 #### Application identifies if input lengths form an isosceles, equilateral or a scalene triangle, or if the lengths can form a triangle at all. [2/15/2019]
 #### By **Manuel Sande**
 ## Description
