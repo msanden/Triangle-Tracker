@@ -1,11 +1,21 @@
-body {
+
+body{
   background-color: #EEECE1;
+  margin: 35px;
+}
+
+.frontpanel {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 45%;
   border: 1px solid black;
-  padding-left: 25px;
-  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 15px;
+  padding-bottom: 10px;
   font-family: serif;
 }
+
+ul {
+  padding-left: 0;
+}​
