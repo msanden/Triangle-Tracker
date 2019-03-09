@@ -1,27 +1,35 @@
-# Triangle Tracker Program
-#### Application identifies if input lengths form an isosceles, equilateral or a scalene triangle, or if the lengths can form a triangle at all. [2/15/2019]
-#### By **Manuel Sande**
-## Description
-The application uses the following guidelines to evaluate input:
-* For an equilateral triangle, all sides must be equal.
-* For an isosceles triangle, two sides are exactly equal.
-* For a scalene triangle, none of the sides are equal. However, the sum of any
-two sides of the triangle must be greater than the third side.
-* Most importantly, if the sum of any two sides of the triangle is equal to or
-less than the third remaining side, then a triangle CANNOT be formed using those
-values. (For example, the values 9, 4 & 3 cannot form a triangle.)
+# Triangle Tracker
 
-## USER STORY
-A user enters the length values of the three sides of their triangle.
-Upon submitting their values, the application should output what type of triangle
-the values will produce, whether an isosceles, equilateral, scalene or NO triangle
-at all.
-## Technologies Used
-JavaScript
+#### A triangle tracking program, 2/15/2019
+#### By **[Manuel Sande](https://github.com/msanden)**
+
+## Description
+Application reads input lengths and outputs what type of triangle they form, or if they can form a triangle at all. Triangles get classified into isosceles, equilateral or scalene.
+
+## Specifications and Guidelines
+The program follows these guidelines:
+* An equilateral triangle has all equal lengths,
+* An isosceles triangle has two equal lengths,
+* A scalene has no equal lengths but the sum of any
+two sides is greater than the third side.
+* A triangle CANNOT be formed if the sum of any two sides is equal to or
+less than the third remaining side. For example, the values 9, 4 & 3 cannot form a triangle.
+
+## User Story
+* A user enters the length values of the three sides of their triangle,
+* When they submit their entries, the application outputs the type of triangle
+the lengths produce (isosceles, equilateral, scalene or NO triangle).
+
+## Tools and Technologies Used
+CSS, JavaScript
+
+## Support and Contact details
+The application has no known bugs. However, contribute or report any issue you encounter [here](https://github.com/msanden/Triangle-Tracker/issues/new).
+
 ### License
 MIT License
 
-Copyright (c) [2019] [Manuel Sande]
+Copyright (c) 2019 **Manuel Sande**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
