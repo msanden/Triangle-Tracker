@@ -2,30 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Triangle Tracker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/triangleTracker.css">
   </head>
+
   <body>
+
     <script src="js/triangleTracker.js"></script>
+
     <form class="frontpanel" action="index.html">
-      <h1>Triangle Tracker Program</h1>
-      <p> Length A: <input type="text" id="lengthA" placeholder="Enter Length"></p>
-      <p> Length B: <input type="text" id="lengthB" placeholder="Enter Length"></p>
-      <p> Length C: <input type="text" id="lengthC" placeholder="Enter Length"></p>
+      <h2>A Triangle Tracking Application</h2>
+      <p> <b>Length A:</b> <input type="text" id="lengthA" placeholder="Enter Length"></p>
+      <p> <b>Length B:</b> <input type="text" id="lengthB" placeholder="Enter Length"></p>
+      <p> <b>Length C:</b> <input type="text" id="lengthC" placeholder="Enter Length"></p>
+
       <p><button type="button" name="button" onclick="triangleTracker()">
         Submit</button>
       <button type="reset" name="button">Reset</button></p>
+
       <p>
-      <ul><b>Triangle tracker program rules:</b>
-        <li>All sides must be equal in an equilateral triangle.</li>
-        <li>Two sides are exactly equal in an isosceles triangle.</li>
-        <li>None of the sides are equal in a scalene triangle. However,
-          the sum of any two sides of the triangle must be greater than
-          the third side.</li>
-        <li>Most importantly, if the sum of any two sides of the triangle
-          is equal to or less than the third remaining side, then a triangle
-          CANNOT be formed using those values. (For example, the values 9,
-          4 & 3 cannot form a triangle.)</li></p>
+      <ul><b>Application guidelines:</b>
+        <li>An equilateral triangle has all equal lengths,</li>
+        <li>An isosceles triangle has two equal lengths,</li>
+        <li>A scalene has no equal lengths but the sum of any two sides is greater
+           than the third side,</li>
+        <li>A triangle <em>cannot</em> be formed if the sum of any two sides is equal to or
+        less than the third remaining side. For example, the values 9, 4 & 3 cannot form a triangle.</li></p>
       </ul>
     </form>
   </body>
