@@ -4,7 +4,7 @@ function triangleTracker() {
   var lengthA = parseInt(document.getElementById('lengthA').value);
   var lengthB = parseInt(document.getElementById('lengthB').value);
   var lengthC = parseInt(document.getElementById('lengthC').value);
-
+//var lengthA = parseInt($('#lengthA').value)
   lengths = [lengthA, lengthB, lengthC];
 
   if (lengths[0]+lengths[1]<=lengths[2] || lengths[0]+lengths[2]<=lengths[1] ||
